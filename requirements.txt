@@ -73,7 +73,8 @@ onnx==1.14.0
 onnx-tf==1.10.0
 onnx2keras==0.0.24
 onnxruntime==1.15.0
-opencv-python-headless==4.5.3.56
+opencv-contrib-python==4.7.0.72
+opencv-python==4.7.0.72
 opt-einsum==3.3.0
 packaging==23.1
 pandas==2.0.2
