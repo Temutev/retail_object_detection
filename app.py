@@ -1,6 +1,7 @@
 import cv2
 import streamlit as st
-from yolov8 import YOLOv8
+#from yolov8 import YOLOv8
+from yolo_ import YOLOv8
 import numpy as np
 from PIL import Image
 import wget
@@ -8,8 +9,8 @@ import wget
 CURRENT_THEME ="dark"
 
 # Load the YOLOv8 model
-model_path = "best.onnx"
-yolov8_detector = YOLOv8(model_path, conf_thres=0.3, iou_thres=0.3)
+model_path = "hi_.onnx"
+yolov8_detector = YOLOv8(model_path, conf_thres=0.3, iou_thres=0.4)
 
 def detect_objects(image):
     # Detect objects using YOLOv8
